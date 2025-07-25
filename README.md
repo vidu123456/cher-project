@@ -53,7 +53,8 @@ I used Tailwind CSS to keep the design responsive and consistent across devices.
 I kept the layout clean and centered to help focus users on the content.
 
 
+# Time Spent on Project 
 
-
+about 8-9 hours
 
    
