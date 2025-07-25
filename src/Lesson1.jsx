@@ -7,17 +7,41 @@ import IndexCard from './IndexCard';
 
 function Lesson1({ coins, setCoins, progress, setProgress }) {
   const navigate = useNavigate();
+const cards = [
+  {
+    front: 'What is a home inspection?',
+    back: "A home inspection is a visual assessment of a property's condition, typically done before buying or selling."
+  },
+  {
+    front: 'Why get an inspection?',
+    back: 'To uncover potential issues in the home before committing to a purchase.'
+  },
+  {
+    front: 'Who performs home inspections?',
+    back: 'Licensed or certified home inspectors with specialized training.'
+  },
+  {
+    front: 'What does a home inspection include?',
+    back: 'Roof, foundation, plumbing, electrical systems, HVAC, and structural components.'
+  },
+  {
+    front: 'Is a home inspection required?',
+    back: 'No, but it is strongly recommended to avoid costly surprises.'
+  },
+  {
+    front: 'Can a home "fail" an inspection?',
+    back: 'No — inspectors report issues, but don’t pass or fail homes.'
+  },
+  {
+    front: 'How long does a typical inspection take?',
+    back: 'Usually 2 to 4 hours, depending on the size and condition of the home.'
+  },
+  {
+    front: 'What happens after the inspection?',
+    back: 'The inspector provides a report, which can be used to negotiate repairs or price.'
+  }
+];
 
-  const cards = [
-    { front: 'What is a home inspection?', back: "An examination of a home's condition." },
-    { front: 'Why get an inspection?', back: 'To identify issues before buying.' },
-    { front: 'Who performs it?', back: 'Certified home inspectors.' },
-    { front: 'Question 4', back: "An examination of a home's condition." },
-    { front: 'Question 5', back: "An examination of a home's condition." },
-    { front: 'Question 6', back: "An examination of a home's condition." },
-    { front: 'Question 7', back: "An examination of a home's condition." },
-    { front: 'Question 8', back: "An examination of a home's condition." }
-  ];
 
   const [clickedCards, setClickedCards] = useState(new Set());
 
@@ -81,3 +105,4 @@ function Lesson1({ coins, setCoins, progress, setProgress }) {
 }
 
 export default Lesson1;
+
