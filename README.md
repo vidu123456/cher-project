@@ -40,6 +40,19 @@ Animations: CSS transitions, conditionally rendered components
 
 Deployment: Vercel
 
+# Assumptions & Design Decisions
+
+I assumed the users are first-time homebuyers who learn best through short lessons and interactive quizzes.
+
+I designed the experience to show one lesson at a time.
+
+True/False and multiple choice questions were used to make the learning interacitve.
+
+I used Tailwind CSS to keep the design responsive and consistent across devices.
+
+I kept the layout clean and centered to help focus users on the content.
+
+
 
 
 
